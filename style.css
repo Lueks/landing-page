@@ -38,8 +38,10 @@ body {
 
 .content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     flex: 1 0 auto;
+    align-items: center;
     
 }
 
@@ -123,4 +125,11 @@ body {
     border-radius: 12px;
     display: flex;
     margin: 25px;
+}
+
+.quote {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-color:#E5E7EB;
 }
